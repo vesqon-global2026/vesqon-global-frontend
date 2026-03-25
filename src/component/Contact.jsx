@@ -106,7 +106,7 @@ const Contact = () => {
         <Grid container spacing={4} justifyContent="center">
           {[
             { title: "Call Us", desc: "+1 234 567 890", icon: <PhoneIcon /> },
-            { title: "Email Us", desc: "info@vesqonglobal.com", icon: <EmailIcon /> },
+            { title: "Email Us", desc: "info@vesqon.com", icon: <EmailIcon /> },
             { title: "Visit Us", desc: "Al Khobar, KSA", icon: <LocationOnIcon /> }
           ].map((item, i) => (
             <Grid item xs={12} sm={4} key={i}>
@@ -159,7 +159,7 @@ const Contact = () => {
       <Box sx={{ p: 4 }}>
         <iframe
           title="map"
-          src="https://www.google.com/maps?q=Al+Khobar&output=embed"
+        src="https://www.google.com/maps?q=Al+Luqman+Building+3rd+Floor+Office+No+7+Al+Khobar+KSA&output=embed"
           width="100%"
           height="400"
           style={{ border: 0 }}

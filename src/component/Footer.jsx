@@ -134,7 +134,7 @@ const Footer = () => {
             }
           }}
         >
-          Email: info@vesqonglobal.com
+          Email: info@vesqon.com
         </Typography>
       </Box>
 
