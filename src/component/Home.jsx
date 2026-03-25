@@ -28,7 +28,6 @@ import Footer from "./Footer";
 import Header from "./Header";
 import { motion } from "framer-motion";
 import welcomeimg from "../assets/image/welcome.png";
-import herobanner from "../assets/image/hero-banner1.png"
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {

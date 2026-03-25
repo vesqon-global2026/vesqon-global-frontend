@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 import bg2 from "../assets/image/TPI-img/asset-banner.jpg";
 import section1 from "../assets/image/services-img-2.jpeg";
-import section3 from "../assets/image/services-img-4.jpg";
+import section3 from "../assets/image/asset-section-3.jpeg";
 import { fontMedium, fontBold, fontRegular } from '../assets/style/homeStyle';
 import { useNavigate } from 'react-router-dom';
 

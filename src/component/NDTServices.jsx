@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import bg2 from "../assets/image/bg-img2.jpg";
 import section1 from "../assets/image/services-img-3.png";
-import section2 from "../assets/image/services-img-5.jpg";
+import section2 from "../assets/image/ndt-section-3.jpg";
 import { fontMedium, fontBold, fontRegular } from '../assets/style/homeStyle';
 import { useNavigate } from 'react-router-dom';
 
@@ -216,7 +216,7 @@ const NDTServices = () => {
               </Typography>
 
               <Typography sx={textStyle}>
-                We provide a broad range of NDT services, including both traditional and advanced inspection techniques, tailored to meet diverse industrial requirements.
+                We provide a broad range of NDT services, including both conventional and advanced inspection techniques, tailored to meet diverse industrial requirements.
               </Typography>
 
               <Typography sx={{ ...textStyle, mt: 3 }}>
