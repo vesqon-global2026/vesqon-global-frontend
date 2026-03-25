@@ -372,7 +372,7 @@ React.useEffect(() => {
           </Collapse>
 
           <ListItemButton onClick={() => handleMobileNavigate("/careers")} sx={{borderBottom:'1px solid #6f6f6f'}}>
-            <ListItemText primary="Carriers" />
+            <ListItemText primary="Careers" />
           </ListItemButton>
 
           <ListItemButton onClick={() => handleMobileNavigate("/contact")} >

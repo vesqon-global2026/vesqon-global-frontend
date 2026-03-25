@@ -169,6 +169,8 @@ animation: "heroGradient 12s ease infinite",
     opacity: fade ? 1 : 0,
     transform: fade ? "translateY(0)" : "translateY(40px)",
     transition: "all 0.6s ease",
+     alignItems: { xs: "center", md: "flex-start" },
+    textAlign: { xs: "center", md: "left" },
   }}
 >
 
