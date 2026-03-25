@@ -118,18 +118,21 @@ const handleSubmit = async () => {
   try {
 
     const response = await fetch("https://vesqon-backend.onrender.com/api/careers", {
-      method: "POST",
-      body: data
-    });
+  method: "POST",
+  body: data
+});
 
-    const result = await response.json();
+const result = await response.json();
 
-    Swal.fire({
-      icon: "success",
-      title: "Application Submitted!",
-      text: "Your application was sent successfully",
-      confirmButtonColor: "#5daa54"
-    });
+if (!response.ok) {
+  throw new Error(result.message || "Failed");
+}
+
+Swal.fire({
+  icon: "success",
+  title: "Application Submitted!",
+  text: "Your application was sent successfully",
+});
 
     // RESET FORM
     setFormData({
